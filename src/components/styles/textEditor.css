@@ -20,7 +20,7 @@
 }
 @media (max-width: 800px) {
 	.ButtonSave{
-        width:90px;
+        width:80px;
 
     }}
 .ButtonCancel{
@@ -32,7 +32,7 @@
 }
 @media (max-width: 800px) {
 	.ButtonCancel{
-        width:90px;
+        width:80px;
 
     }}
 
@@ -44,6 +44,6 @@
     @media (max-width: 800px) {
         .textInput{
             margin-left:5px;
-            width: 235px;
+            width: 155px;
     
         }}
