@@ -1,0 +1,52 @@
+.Container{
+    border-radius: 5px;
+    border: 1px solid rgba(200, 200, 200, .12);
+  
+    width:400px;
+    padding: 5px 5px 5px 5px;
+    background: #f5f6f7;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+	.Container{
+        width:250px;
+
+    }
+}
+.Button{
+    
+    background-color: #24A0ED;
+    color:white;
+    margin-top:40px ;
+    width:400px;
+    height: 40px;
+}
+@media (max-width: 800px) {
+	.Button{
+        width:250px;
+
+    }
+}
+
+
+
+
+.titleTextBox{
+    margin-left:30px;
+}
+.ButtonContainer{
+    text-align: center;
+
+}
+
+.Title{
+    text-align: center;
+}
+.TitleEdit{
+    display: flex;
+    justify-content: space-between;
+}

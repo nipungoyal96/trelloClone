@@ -1,0 +1,18 @@
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+}
+.Button{
+    
+    background-color: #24A0ED;
+    color:white;
+    margin-top:10px ;
+    width:400px;
+    height: 40px;
+}
+@media (max-width: 800px) {
+	.Button{
+        width:250px;
+
+    }
+}

@@ -1,0 +1,49 @@
+.textInputContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.buttonContainer{
+    display: flex;
+    padding-top:5px;
+    justify-content: space-around;
+    
+}
+
+.ButtonSave{
+    border-radius:0.5rem;
+    background-color: #24A0ED;
+    color:white;
+    width:120px;
+    height: 26px;
+}
+@media (max-width: 800px) {
+	.ButtonSave{
+        width:90px;
+
+    }}
+.ButtonCancel{
+    border-radius:0.5rem;
+    background-color: #ee0000;
+    color:white;
+    width:120px;
+    height: 26px;
+}
+@media (max-width: 800px) {
+	.ButtonCancel{
+        width:90px;
+
+    }}
+
+    .textInput{
+        margin-left:38px;
+        height: 40px;
+        width: 300px;
+    }
+    @media (max-width: 800px) {
+        .textInput{
+            margin-left:5px;
+            width: 235px;
+    
+        }}
